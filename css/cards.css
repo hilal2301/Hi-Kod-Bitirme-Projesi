@@ -1,0 +1,34 @@
+.card-section {
+  background-image: url(../images/bg2.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 5;
+  background-repeat: no-repeat;
+}
+.card-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--transparent-black);
+  z-index: -1;
+}
+
+.card-section-title {
+  font-family: "Kode Mono", monospace;
+}
+.card-section #projects {
+  padding: 100px;
+}
+.card-section #projects h1 {
+  color: var(--light);
+  letter-spacing: 10px;
+}
+
+.card-section #projects .row .card-body {
+  font-family: "Playfair Display", serif;
+}

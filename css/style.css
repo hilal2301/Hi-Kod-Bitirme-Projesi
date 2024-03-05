@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --light: #ffffff;
+  --gold: #f4d03f;
+  --dark: #000000;
+  --black: #222222;
+  --transparent-black: #000000a8;
+  --transparent-dark: rgba(0, 0, 0, 0.5);
+  --burgundy: rgb(135, 5, 5);
+  --red: rgb(255, 47, 0);
+  --gray: rgb(83, 83, 83);
+  --blue: #2c3e50;
+  --space-blue: #183059;
+  --dark-blue: #17202a;
+}
